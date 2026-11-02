@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
-import "./sever.js";
 function App() {
   const [feedback, setFeedback] = useState({
     q1: "",
